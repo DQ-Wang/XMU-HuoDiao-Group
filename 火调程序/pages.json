@@ -1,0 +1,69 @@
+{
+  "pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+
+    {
+      "path": "pages/news/news",
+      "style": {
+        // "navigationStyle": "custom"
+        "navigationBarTitleText": "新闻",
+        "backgroundColor": "#f5f5f5"
+      }
+    },
+    {
+      "path": "pages/talk/talk",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/game/game",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/mine/mine",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#f05454"
+  },
+  "uniIdRouter": {},
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#d81e06",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+
+    "list": [{
+        "pagePath": "pages/news/news",
+        "iconPath": "/static/tabbarIcons/news01.png",
+        "selectedIconPath": "/static/tabbarIcons/news02.png",
+        "text": "新闻"
+      }, {
+        "pagePath": "pages/talk/talk",
+        "iconPath": "/static/tabbarIcons/talk01.png",
+        "selectedIconPath": "/static/tabbarIcons/talk02.png",
+        "text": "对话"
+      },
+      {
+        "pagePath": "pages/game/game",
+        "iconPath": "/static/tabbarIcons/game01.png",
+        "selectedIconPath": "/static/tabbarIcons/game02.png",
+        "text": "游戏"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "/static/tabbarIcons/mine01.png",
+        "selectedIconPath": "/static/tabbarIcons/mine02.png",
+        "text": "我的"
+      }
+
+    ]
+
+  }
+}
