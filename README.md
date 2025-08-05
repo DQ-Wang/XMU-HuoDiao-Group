@@ -9,4 +9,4 @@
 
   
 
-- **![文件列表](\XMU-HuoDiao-Group\文件列表.png)**
+- **![文件列表](https://github.com/DQ-Wang/XMU-HuoDiao-Group/blob/main/%E6%96%87%E4%BB%B6%E5%88%97%E8%A1%A8.png?raw=true)**
