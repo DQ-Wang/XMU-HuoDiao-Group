@@ -61,29 +61,24 @@
       <!-- 6.23测试改 -->
       <navigator url="/pages/posts/add">
         <view class="menu-item">
-          <view class="icon iconfont icon-qiandai"></view>
-          <text class="label">推广赚钱</text>
+          <view class="icon iconfont icon-lishi"></view>
+          <text class="label">浏览历史</text>
           <text class="arrow iconfont icon-youjiantou"></text>
         </view>
       </navigator>
       <view class="menu-item">
-        <view class="icon iconfont icon-youhuiquan"></view>
-        <text class="label">领券中心</text>
+        <view class="icon iconfont icon-shoucang"></view>
+        <text class="label">我的收藏</text>
         <view class="icon arrow iconfont icon-youjiantou"></view>
       </view>
       <view class="menu-item">
-        <view class="icon iconfont icon-hongbao"></view>
-        <text class="label">直接付款</text>
+        <view class="icon iconfont icon-dianhua"></view>
+        <text class="label">联系我们</text>
         <view class="icon arrow iconfont icon-youjiantou"></view>
       </view>
-      <view class="menu-item" @click="toPostDetail()">
-        <view class="icon iconfont icon-yinhangka"></view>
-        <text class="label">帖子列表</text>
-        <view class="icon arrow iconfont icon-youjiantou"></view>
-      </view>
-      <view class="menu-item" @click="toLocationDetail()">
-        <view class="icon iconfont icon-dizhi"></view>
-        <text class="label">地址管理</text>
+      <view class="menu-item">
+        <view class="icon iconfont icon-shezhi"></view>
+        <text class="label">个人设置</text>
         <view class="icon arrow iconfont icon-youjiantou"></view>
       </view>
     </view>
@@ -189,7 +184,7 @@
 
       .icon {
         padding-left: 26rpx;
-        font-size: 60rpx;
+        font-size: 48rpx;
         color: #a1a1a1;
         font-weight: bold;
       }

@@ -16,7 +16,7 @@
 
       </view>
       <view class="center">
-        <swiper vertical autoplay interval="1500" duration="300" circular>
+        <swiper vertical autoplay interval="2000" duration="600" circular>
           <swiper-item v-for="(item,index) in warning" :key="index">{{item}}</swiper-item>
         </swiper>
       </view>
@@ -29,8 +29,9 @@
       <commin-title title="火灾事件"></commin-title>
       <view class="content">
         <scroll-view scroll-x="true">
-          <view class="box" v-for="item in 8">
-            <image src="/static/图.png" mode="aspectFill"></image>
+          <view class="box" v-for="(item,index) in photos02" :key="index">
+            <image :src="item" mode="aspectFill" @click="gotodetail(index)"></image>
+
           </view>
         </scroll-view>
       </view>
@@ -47,16 +48,54 @@
   const warning = ref([
     '近期高温，请注意用电安全',
     '宿舍消防检查即将开始',
-    '请勿使用违规电器'
+    '请勿使用违规电器',
+    '勿在宿舍内私拉乱接电线',
+    '保持逃生通道畅通，不要堵塞走廊',
+    '请勿遮挡烟雾报警器',
+    '禁止使用大功率电器，如电磁炉、电热毯',
+    '发现安全隐患请及时上报宿管或辅导员',
+    '请勿在宿舍内吸烟',
+    '使用插排时勿超负荷接电',
+    '切勿使用“三无”电器产品',
+    '寝室无人时请关闭所有电源',
+    '定期检查电器插头是否松动、发热',
+    '防火防盗，注意宿舍财产安全',
+    '宿舍内禁止使用明火设备',
+    '保持宿舍整洁，避免可燃物堆积',
+    '勿随意拆改宿舍电路设施',
+    '如遇火情，切勿慌张，立即疏散并报警',
+    '参与消防演练，掌握基本逃生技能',
+    '注意人身安全，晚归请结伴而行'
   ])
+
   const photos = ref([
-    '../../static/火调实地调查照片/采访03.jpg',
-    '../../static/火调实地调查照片/采访04.jpg',
-    '../../static/火调实地调查照片/观察器材02.jpg',
-    '../../static/火调实地调查照片/观察器材03.jpg',
-    '../../static/火调实地调查照片/合照02.jpg',
-    '../../static/火调实地调查照片/合照06.jpg',
+    // '../../static/火调实地调查照片/采访03.jpg',
+    // '../../static/火调实地调查照片/采访04.jpg',
+    // '../../static/火调实地调查照片/观察器材02.jpg',
+    // '../../static/火调实地调查照片/观察器材03.jpg',
+    // '../../static/火调实地调查照片/合照02.jpg',
+    // '../../static/火调实地调查照片/合照06.jpg',
+    '../../static/应知应会PPT图片/01.png',
+    '../../static/应知应会PPT图片/02.png',
+    '../../static/应知应会PPT图片/03.png',
+    '../../static/应知应会PPT图片/04.png',
+    '../../static/应知应会PPT图片/05.png',
+    '../../static/应知应会PPT图片/06.png',
+    '../../static/应知应会PPT图片/07.png',
+    '../../static/应知应会PPT图片/08.png'
   ])
+
+
+  const photos02 = ref(['../../static/火灾事件/新闻01/cover.png', "/static/火灾事件/新闻02/cover.jpg"
+
+
+  ])
+
+  const gotodetail = (index) => {
+    uni.navigateTo({
+      url: `/pages/news/news_detail${index}`
+    })
+  }
 </script>
 
 <style lang="scss" scoped>
