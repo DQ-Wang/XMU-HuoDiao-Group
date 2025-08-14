@@ -1,8 +1,8 @@
 <template>
   <view class="select-dialog-container">
-    <view class="title animate__animated animate__fadeInDown">选择对话类型</view>
+    <view class="title ">选择对话类型</view>
 
-    <view class="options animate__animated animate__fadeInDown">
+    <view class="options ">
       <view class="option-card" @click="goTo('graphic')">
         <!-- <image src="@/static/icons/graphic.png" mode="aspectFit" class="icon" /> -->
         <text class="label">图文对话</text>
@@ -31,8 +31,6 @@
 </script>
 
 <style lang="scss" scoped>
-  @import "../../static/css/animate.min.css";
-
   .select-dialog-container {
     display: flex;
     flex-direction: column;

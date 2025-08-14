@@ -59,10 +59,9 @@
       }
     },
     {
-      "path" : "pages/news/news_detail3",
-      "style" : 
-      {
-        "navigationBarTitleText" : ""
+      "path": "pages/news/news_detail3",
+      "style": {
+        "navigationBarTitleText": "货船突发大火"
       }
     }
   ],

@@ -87,7 +87,7 @@
 
 
   const photos02 = ref(['../../static/火灾事件/新闻01/cover.png', "/static/火灾事件/新闻02/cover02.png",
-    "/static/火灾事件/新闻03/cover.png"
+    "/static/火灾事件/新闻03/cover.png", '/static/火灾事件/新闻04/cover.webp'
 
 
   ])
