@@ -1,24 +1,21 @@
 <template>
   <view class="news-detail">
     <!-- 新闻标题 -->
-    <view class="title">新华应急丨5人死亡！广西梧州市一居民楼发生火灾</view>
+    <view class="title">【科普小贴士】消防安全知识大全</view>
 
     <!-- 发布时间 -->
 
-    <view class="date">2025年 08月06日 17:09 北京</view>
+    <view class="date">2025年 08月05日 15:58 辽宁</view>
 
 
 
 
-    <!-- 正文内容 -->
-    <view class="content">
-      近日，广西梧州市龙圩区城南大道一居民楼发生火灾，造成5人死亡。据新华网消息，起火建筑为5层砖混结构的居民楼，总建筑面积300平方米，起火部位位于一层。该建筑东面为民房，南面为空地，西面为民房，北面为街道，过火面积约20平方米，燃烧物质为杂物等。目前，善后工作及起火原因调查正有序开展。
-    </view>
-    <image class="cover" src='/static/火灾事件/新闻02/cover.jpg' mode="widthFix" />
-    <image class="cover" src='/static/火灾事件/新闻02/mp.weixin.qq.com_s_5Z1rc4GHl1-e195g3n7T7w(iPhone 14 Pro Max).png'
+
+    <image class="cover" src='/static/火灾事件/新闻03/mp.weixin.qq.com_s_BmewtFr0iiFFm3ETV-NluA(iPhone 14 Pro Max).png'
       mode="widthFix" />
 
-    <view class="date">转自：聚焦新华公众号</view>
+
+    <view class="date">转自：V观阜新公众号</view>
   </view>
 
 </template>

@@ -26,7 +26,7 @@
     </view>
 
     <view class="select">
-      <commin-title title="火灾事件"></commin-title>
+      <commin-title title="热点内容"></commin-title>
       <view class="content">
         <scroll-view scroll-x="true">
           <view class="box" v-for="(item,index) in photos02" :key="index">
@@ -86,7 +86,8 @@
   ])
 
 
-  const photos02 = ref(['../../static/火灾事件/新闻01/cover.png', "/static/火灾事件/新闻02/cover.jpg"
+  const photos02 = ref(['../../static/火灾事件/新闻01/cover.png', "/static/火灾事件/新闻02/cover02.png",
+    "/static/火灾事件/新闻03/cover.png"
 
 
   ])

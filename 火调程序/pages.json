@@ -37,11 +37,29 @@
     {
       "path": "pages/news/news_detail1",
       "style": {
-        "navigationBarTitleText": ""
+        "navigationBarTitleText": "广西梧州市一居民楼发生火灾"
       }
     },
     {
-      "path" : "pages/talk/select",
+      "path": "pages/talk/select",
+      "style": {
+        "navigationStyle": "custom"
+      }
+    },
+    {
+      "path": "pages/talk/textTalk",
+      "style": {
+        "navigationBarTitleText": "文本对话"
+      }
+    },
+    {
+      "path": "pages/news/news_detail2",
+      "style": {
+        "navigationBarTitleText": "消防安全知识大全"
+      }
+    },
+    {
+      "path" : "pages/news/news_detail3",
       "style" : 
       {
         "navigationBarTitleText" : ""
@@ -65,7 +83,7 @@
         "selectedIconPath": "/static/tabbarIcons/news02.png",
         "text": "新闻"
       }, {
-        "pagePath": "pages/talk/talk",
+        "pagePath": "pages/talk/select",
         "iconPath": "/static/tabbarIcons/talk01.png",
         "selectedIconPath": "/static/tabbarIcons/talk02.png",
         "text": "对话"
